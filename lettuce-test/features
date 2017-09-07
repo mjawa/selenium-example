@@ -1,0 +1,6 @@
+Feature: Test the features of our Login Form
+
+Scenario: Test Login Form
+  Given I go to "http://www.python.org"
+    The title of the page should contain "Python"
+    Then the browser should close
